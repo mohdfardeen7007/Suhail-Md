@@ -16,12 +16,9 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi"; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "`𝐅𝖾ᥣ𝗂𝗑 𝐍ααꭑ 𝐓ⱺɦ 𝐒υ𐓣α 𝐇𝗂 𝐇ⱺ𝗀α`" 
 
 
 global.devs = "923184474176" // Developer Contact
@@ -76,8 +73,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  botname : process.env.BOT_NAME  || "𝐅𝖾ᥣ𝗂𝗑 𝐍ααꭑ 𝐓ⱺɦ 𝐒υ𐓣α 𝐇𝗂 𝐇ⱺ𝗀α",
+  ownername:process.env.OWNER_NAME|| "𝐅𝖾ᥣ𝗂𝗑 𝐍ααꭑ 𝐓ⱺɦ 𝐒υ𐓣α 𝐇𝗂 𝐇ⱺ𝗀α",
 
 
   errorChat : process.env.ERROR_CHAT || "",
